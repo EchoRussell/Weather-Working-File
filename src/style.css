@@ -1,0 +1,152 @@
+h1 {
+  color: #233142;
+  font-family: "Caprasimo" regular;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 1.5;
+  margin-top: 13px;
+}
+
+.dateToday {
+  font-family: "Caprasimo" regular;
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 13px;
+}
+
+html .container,
+body .container {
+  height: 38em;
+  width: 25em;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 1em;
+  background: #fef9c6;
+  box-shadow: 0px 0px 20px 10px pink;
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  width: 600px;
+  height: 400px;
+
+  background-color: seashell;
+  border-radius: 10px;
+  -moz-border-radius: 25px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.search-engine {
+  margin-top: 2em;
+  border-color: #ffceda;
+  border-width: thick;
+  width: 200em;
+  font-family: "Caprasimo";
+  font-size: 15px;
+}
+
+.search-button {
+  display: inline-block !important;
+
+  border: none;
+  background: pink;
+  border-radius: 80px;
+  box-shadow: 3px;
+  font-family: "Caprasimo";
+  font-weight: bold;
+  size: 30px;
+}
+
+.search-button:hover {
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+
+  cursor: pointer;
+}
+
+.geolocation-button {
+  display: inline-block !important;
+  margin-left: 0.5em;
+  border: none;
+  background: pink;
+  border-radius: 80px;
+  box-shadow: 3px;
+  font-family: "Caprasimo";
+  font-weight: bold;
+  size: 30px;
+}
+
+.geolocation-button:hover {
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+  cursor: pointer;
+}
+
+.icons {
+  height: 38em;
+  width: 25em;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 1em;
+  top: 15em;
+
+  border-radius: 15px;
+}
+
+.row {
+  position: absolute;
+  width: 100%;
+  height: 35%;
+  justify-content: space-between -2em;
+  left: 60%;
+  top: 14em;
+  transform: translateX(-50%);
+  font-family: "Caprasimo";
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 35%;
+  background: #ffceda;
+  bottom: 3.5em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-text {
+  margin-left: 1em;
+
+  margin: 0 auto;
+
+  margin-top: -5em;
+
+  overflow: hidden;
+  position: relative;
+  font-family: "Caprasimo" bold;
+}
+
+.now {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Caprasimo" regular;
+}
+.humid {
+  font-family: "Caprasimo" regular;
+}
+
+.card-img-weather {
+  display: block;
+  margin-top: 10px;
+}
