@@ -40,6 +40,12 @@ body {
   margin-top: 50px;
   padding: 30px;
 }
+footer {
+  font-size: 10px;
+
+  display: inline-block !important;
+  margin: 0 auto;
+}
 
 .search-engine {
   margin-top: 2em;
@@ -123,6 +129,7 @@ body {
   bottom: 3.5em;
   left: 50%;
   transform: translateX(-50%);
+  padding: 0em;
 }
 
 .card-text {
@@ -138,7 +145,7 @@ body {
 }
 
 .now {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
   font-family: "Caprasimo" regular;
 }
@@ -149,4 +156,22 @@ body {
 .card-img-weather {
   display: block;
   margin-top: 10px;
+}
+
+.forecast-row {
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+
+  margin-top: -5em;
+
+  overflow: hidden;
+  position: relative;
+  font-family: "Caprasimo" bold;
+}
+.col-4 {
+  font-size: 12px;
+}
+.footer {
+  margin-top: -5em;
 }
